@@ -1,0 +1,6 @@
+        let fun1 = function (url, { data, cache }) {
+            return data;
+        }
+        let result = fun1("api/customer", { data: "Example Data", cache: true });
+
+        console.log(result);
